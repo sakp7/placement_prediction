@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-df= pd.read_csv("collegePlace.csv")
+df= pd.read_csv("collegeplace.csv")
 
 le=LabelEncoder()
 stream=le.fit_transform(df['Stream'])
