@@ -26,7 +26,7 @@ model.fit(x_train,y_train)
 y_pred=model.predict(x_test)
 
 def fun():
-    
+    st.header("Placement Prediction")
     age=st.number_input("Enter Age")
     gender=st.radio("Gender",("Male","Female"))
     if gender=="male":
